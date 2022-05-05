@@ -1,9 +1,14 @@
 import React from 'react';
 
+// styles
+import { AppContainer } from "./styles"
+
 function App() {
     return (
-        <div className="App">
-        </div>
+        <AppContainer>
+            <div className="App">
+            </div>
+        </AppContainer>
     );
 }
 
